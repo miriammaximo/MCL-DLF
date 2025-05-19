@@ -1,0 +1,33 @@
+pcds_directory: '/media/arvc/Seagate Expansion Drive/DATOS/RUTAS-ARVC/mapa/' #'/media/arvc/Seagate Expansion Drive/DATOS/NCLT/'
+
+map_directory: '/home/arvc/Miriam/DATOS/MCL-DLF/data/ARVC/ARVC_map.csv' # "/home/arvc/Miriam/Repositorios/MCL-DLF-tools/data/NCLT/NCLT_map.csv"
+
+trajectory_directory: "/home/arvc/Miriam/DATOS/MCL-DLF/data/ARVC/2024-04-24-12-47-35.csv"
+
+trajectory_name: "2024-04-24-12-47-35"
+
+weights_directory:  '/home/arvc/Miriam/Repositorios/MinkUNeXt/weights/MinkUNeXt_refined_20250509_1701_final.pth'
+
+# '/home/arvc/Miriam/Repositorios/MinkUNeXt/weights/MinkUNeXt_refined_20250509_1701_final.pth' #ARVC data
+# '/home/arvc/Miriam/Repositorios/MinkUNeXt/weights/MinkUNeXt_refined_20250509_2228_final.pth' #NCLT data
+
+results_directory: 'results/'
+
+qsize: 0.01
+
+dataset: 'ARVC' #'NCLT'
+
+MonteCarlo:
+
+  sigma_dist: 10
+
+  sigma_desc: 10
+
+  b_closest: 10
+
+  num_part: 1
+
+  voxel_size: 0.25 # (NLCT=0.1) (ARVC =0.25)
+
+  intermediate_layer: 'convtr5p8s2'
+
